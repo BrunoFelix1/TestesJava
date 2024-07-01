@@ -16,7 +16,15 @@ public class MatematicaBasica {
         return a+b;
     }
 
+    public static double add (double a, double b) {
+        return a+b;
+    }
+
     public static int subtract (int a, int b) {
+        return a-b;
+    }
+
+    public static double subtract (double a, double b) {
         return a-b;
     }
 
@@ -24,7 +32,16 @@ public class MatematicaBasica {
         return a*b;
     }
 
+    public static double multiplicate (double a, double b) {
+        return a*b;
+    }
+
+
     public static int divide (int a, int b) {
+        return a/b;
+    }
+
+    public static double divide (double a, double b) {
         return a/b;
     }
 
@@ -34,6 +51,6 @@ public class MatematicaBasica {
 
     public static int exponent(int a, int b) {
         return (int) Math.pow(a, b);
-        }
+    }
 
 }
