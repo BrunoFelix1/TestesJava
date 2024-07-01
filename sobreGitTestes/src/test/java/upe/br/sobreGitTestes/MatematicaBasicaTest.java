@@ -48,4 +48,12 @@ public class MatematicaBasicaTest {
         int esperado = 2;
         assertEquals(esperado, MatematicaBasica.mod(num1,num2));
     }
+
+    @Test
+    public void testExponent() {
+        int num1 = 2;
+        int num2 = 2;
+        int esperado = 4;
+        assertEquals(esperado, MatematicaBasica.exponent(num1, num2));
+    }
 }
