@@ -3,7 +3,7 @@ package upe.br.sobreGitTestes;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
-public class MatematicaBasicaTeste {
+public class MatematicaBasicaTest {
     @Test
     public void shouldAnswerWithTrue()
     {
