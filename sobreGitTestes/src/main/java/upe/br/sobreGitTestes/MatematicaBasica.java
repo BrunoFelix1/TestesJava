@@ -53,4 +53,12 @@ public class MatematicaBasica {
         return (int) Math.pow(a, b);
     }
 
+    public static int absoluteVal(int a) {
+        return Math.abs(a);
+    }
+    
+    public static double absoluteVal(double a) {
+        return Math.abs(a);
+}
+
 }

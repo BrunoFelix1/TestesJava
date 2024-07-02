@@ -92,4 +92,14 @@ public class MatematicaBasicaTest {
         int esperado = 4;
         assertEquals(esperado, MatematicaBasica.exponent(num1, num2));
     }
+
+    @Test
+
+    publicvoid testAbsoluteValDouble(){
+        double num1 = -10.0;
+        double esperado = 10.0;
+        assertEquals(esperado,MatematicaBasica.absoluteVal(num1),0.0001);
+
+
+    } 
 }
